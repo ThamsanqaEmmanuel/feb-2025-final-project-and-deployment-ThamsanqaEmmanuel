@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDP Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header></header>
+  <nav class="navbar">
+    <div class="logo">RDP Management System</div>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="requirements.html">Requirements</a></li>
+    </ul>
+    <div class="login-info">
+      <i class="fas fa-sign-in-alt"></i>
+      <div><a href="login.html" class="login-lin" id="logoutBtn">Login Out</a></div>
+    </div>
+  </nav>
+
+<section class="section-Application"> 
+    <h2 style="text-align: center;">Apply for Your RDP Here!</h2><br>
+   
+    <h2 style="text-align: center;">What You Can Do On This Page</h2>
+
+    <div class="flex-content">
+        
+        <div class="flex-container">
+            <img src="images/dsc0537.jpg" alt="Apply for RDP">
+            <h5><strong>Apply</strong></h5>
+            <h6>RDP Applications</h6>
+            <p>Free Government House</p><br>
+                50sqft, two bedroom, Open plan kitchen and sitting room<br>
+                Inside toilet<br>
+                Reasonable yard<br>
+                
+            </p>
+        </div>
+
+       
+        <div class="flex-container">
+            <img src="images/dsc0563.jpg" alt="View Status">
+            <h5><strong>Track Application Status</strong></h5>
+            <h6>Feature of this page</h6>
+            <p>You can track your application, view your status<br>
+                Request for Feedback<br>
+                
+            </p>
+        </div>
+      
+       
+        <div class="flex-container">
+            <img src="images/rdp.jpg" alt="Fibre Optics Image">
+            <h5><strong>Request Feedback:</strong></h5>
+            <h6>To qualify</h6>
+            <p>Must be South African, Earn under R5000 per month<br>
+                Pensioner, Unemployed, Over 18 years old<br>
+                
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div>
+        <h3>Contact US:</h3>
+        <ul>
+            <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+            <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+        <p class="copyright">&copy; 2025 Alpha Line Projects. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+  
+   
+
+    // Logout function
+    document.getElementById('logoutBtn').onclick = function() {
+        alert('Logged out successfully.');
+        window.location.assign("login.html");
+    }
+</script>
+
+</body>
+</html>
+

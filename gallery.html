@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body3">
+    <header></header>
+  <nav class="navbar">
+    <div class="logo">RDP Management System</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="requirements.html">Requirements</a></li>
+      
+    </ul>
+    <div class="login-info">
+      <i class="fas fa-sign-in-alt"></i>
+      <div><a href="login.html" class="login-lin">Login</a></div>
+    </div>
+  </nav>
+
+  <div class="gallery-container">
+    <h1 class="fade-slide">Our Gallery</h1>
+    <div class="slider">
+      <div class="slides fade">
+        <img src="images/20130305_115516.jpg" class="slide" alt="Gallery Image 1">
+      </div>
+      <div class="slides fade">
+        <img src="images/dsc0537.jpg" class="slide" alt="Gallery Image 2">
+      </div>
+      <div class="slides fade">
+        <img src="images/dsc0563.jpg" class="slide" alt="Gallery Image 3">
+      </div>
+      <div class="slides fade">
+        <img src="images/rdp.jpg" class="slide" alt="Gallery Image 4">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let index = 0;
+    const slides = document.querySelectorAll(".slides");
+
+    function showSlides() {
+      slides.forEach(slide => slide.style.display = "none");
+      index++;
+      if (index > slides.length) index = 1;
+      slides[index - 1].style.display = "block";
+      setTimeout(showSlides, 4000);
+    }
+
+    showSlides();
+  </script>
+
+</body>
+</html>
