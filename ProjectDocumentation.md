@@ -15,7 +15,7 @@ A fully responsive web application for managing Remote Desktop Protocol (RDP) ap
 
 ##  Live Website
 
- [Visit RDP Management System](https://your-deployment-link.netlify.app)  
+ [Visit RDP Management System](https://thamsanqaemmanuel.github.io/feb-2025-final-project-and-deployment-ThamsanqaEmmanuel/)  
 
 
 
@@ -57,7 +57,7 @@ The project is deployed using:
  GitHub Pages 
 
 To view the live website, go to:  
-👉 [https://your-deployment-link]
+👉 [https://thamsanqaemmanuel.github.io/feb-2025-final-project-and-deployment-ThamsanqaEmmanuel/]
 
 
 
